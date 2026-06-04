@@ -1,0 +1,17 @@
+[project]
+name = "nba-today"
+version = "0.1.0"
+description = "A small CLI for NBA live scores and box scores."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+nba-today = "nba_cli:main"
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["nba_cli"]
