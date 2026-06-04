@@ -4,8 +4,6 @@ A zero-dependency Python CLI for viewing today's NBA scores and player box score
 
 ## Installation
 
-Install locally from this repository:
-
 ```bash
 uv tool install git+https://github.com/chenminhua/nba-today.git
 ```
